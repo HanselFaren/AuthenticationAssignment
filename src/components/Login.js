@@ -35,7 +35,7 @@ function Login() {
         />
         <button
           className="login__btn"
-          onClick={() => logInWithEmailAndPassword(email, password)}
+          onClick={() => logInWithEmailAndPassword(auth, email, password)}
         >
           Login
         </button>
